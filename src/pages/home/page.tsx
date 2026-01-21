@@ -5,6 +5,8 @@ import Button from '../../components/base/Button';
 import type { Trade } from '../../mocks/trades';
 
 
+
+
 // 1. 이제 부모한테서 'trades'랑 'isLoading'을 받아야 해요!
 interface TradeTableProps {
   onAddTrade: () => void;
