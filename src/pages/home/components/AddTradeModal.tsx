@@ -148,7 +148,6 @@ export default function AddTradeModal({ isOpen, onClose, onSubmit }: AddTradeMod
               <h4 className="font-medium text-blue-900">시장 상황 미리보기</h4>
               <Button
                 type="button"
-                size="sm"
                 onClick={handleAutoCapture}
                 className="bg-blue-600 hover:bg-blue-700"
               >
@@ -250,7 +249,7 @@ export default function AddTradeModal({ isOpen, onClose, onSubmit }: AddTradeMod
 
         {/* Submit Buttons */}
         <div className="flex justify-end space-x-3 pt-4 border-t border-gray-200">
-          <Button type="button" variant="outline" onClick={onClose}>
+          <Button type="button" onClick={onClose}>
             취소
           </Button>
           <Button 
